@@ -3,7 +3,15 @@ RequireJS Project Optimization Example
 
 This is a simple project as that the RequireJS [optimization section](http://requirejs.org/docs/optimization.html) describes. I've added a simple build.sh that takes one parameter: the project-name. 
 
-Usage: ./build.sh \<project-name\>
+
+## Instructions
+
+Once you have it cloned, open **project-one/main.html** in the browser. Notice the number of CSS & JS files that it pulls **(8 in total)**. Then run: 
+
+    ./build.sh project-one 
+
+That will create a directory called **project-one-build/**. Open **project-one-build/main.html** in the browser. You'll see that it will only pull **4 files**. That is because the build-step combines all CSS and JS into the fewest possible number of files.
+
 
 
 ## License
