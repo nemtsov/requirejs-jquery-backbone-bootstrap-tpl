@@ -6,7 +6,11 @@ This is a simple project as that the RequireJS [optimization section](http://req
 
 ## Instructions
 
-Once you have it cloned, open **project-one/main.html** in the browser. Notice the number of CSS & JS files that it pulls **(8 in total)**. Then run: 
+Once you have the project cloned
+
+    git clone --recursive https://github.com/georgecalm/requirejs-project-example.git
+
+open **project-one/main.html** in the browser. Notice the number of CSS & JS files that it pulls **(8 in total)**. Then run: 
 
     ./build.sh project-one 
 
