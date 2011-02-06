@@ -1,5 +1,5 @@
-RequireJS Project Optimization Example
-======================================
+RequireJS Project Template
+==========================
 
 This is a simple project as that the RequireJS [optimization section](http://requirejs.org/docs/optimization.html) describes. I've added a simple build.sh that takes one parameter: the project-name. 
 
@@ -8,7 +8,7 @@ This is a simple project as that the RequireJS [optimization section](http://req
 
 Once you have the project cloned
 
-    git clone --recursive https://github.com/georgecalm/requirejs-project-example.git
+    git clone --recursive https://github.com/georgecalm/requirejs-project-template.git
 
 open **project-one/main.html** in the browser. Notice the number of CSS & JS files that it pulls **(8 in total)**. Then run: 
 
