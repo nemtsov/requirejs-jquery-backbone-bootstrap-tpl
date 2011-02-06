@@ -13,6 +13,10 @@ Once you have it cloned, open **project-one/main.html** in the browser. Notice t
 That will create a directory called **project-one-build/**. Open **project-one-build/main.html** in the browser. You'll see that it will only pull **4 files**. That is because the build-step combines all CSS and JS into the fewest possible number of files.
 
 
+## More
+
+If you'd like to use **dojo**, take a look at [this template for loading dojo using RequireJS](https://github.com/neonstalwart/dojo-requirejs-template).
+
 
 ## License
 
