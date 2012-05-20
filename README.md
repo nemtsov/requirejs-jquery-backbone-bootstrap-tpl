@@ -26,7 +26,7 @@ all CSS and JS into the fewest possible number of files.
 ## More
 
 If you'd like to use **dojo**, take a look at 
-[this template for loading dojo using RequireJS](https://github.com/neonstalwart/dojo-requirejs-template).
+[this template for loading dojo using RequireJS](https://github.com/csnover/dojo-boilerplate).
 
 
 ## License
