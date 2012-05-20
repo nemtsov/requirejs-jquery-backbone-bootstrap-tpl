@@ -6,13 +6,16 @@ This is a simple project as that the RequireJS [optimization section](http://req
 
 ## Instructions
 
-Once you have the project cloned
+Once you have the project cloned, you'll need to install "r.js" (the
+executable which will build the project):
 
-    git clone --recursive https://github.com/georgecalm/requirejs-jquery-backbone-bootstrap-tpl
+    npm install requirejs
+    
 
-open **project-one/main.html** in the browser. Notice the number of CSS & JS files that it pulls **(8 in total)**. Then run: 
+open **project-one/main.html** in the browser. Notice the number of 
+CSS & JS files that it pulls **(8 in total)**. Then run: 
 
-    ./build.sh project-one 
+    make build
 
 That will create a directory called **project-one-build/**. Open **project-one-build/main.html** in the browser. You'll see that it will only pull **4 files**. That is because the build-step combines all CSS and JS into the fewest possible number of files.
 
