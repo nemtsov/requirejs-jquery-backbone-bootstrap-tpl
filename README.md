@@ -1,5 +1,5 @@
-RequireJS jQuery Bootstrap and Backbone Project Template
-========================================================
+RequireJS, jQuery, Bootstrap and Backbone Project Template
+==========================================================
 
 This is a simple project as that the RequireJS [optimization section](http://requirejs.org/docs/optimization.html) describes. I've added a simple build.sh that takes one parameter: the project-name. 
 
