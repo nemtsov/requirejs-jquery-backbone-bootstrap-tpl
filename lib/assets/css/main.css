@@ -1,0 +1,7 @@
+@import url("bootstrap/bootstrap.css");
+@import url("bootstrap/bootstrap-responsive.css");
+
+body { padding-top: 60px; }
+@media (max-width: 979px) {
+  body { padding-top: 0; }
+}

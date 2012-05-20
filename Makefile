@@ -1,7 +1,7 @@
 all: checkDeps clean build
 
 build: checkDeps
-	r.js -o ./lib/scripts/app.build.js
+	r.js -o ./lib/assets/js/app.build.js
 
 clean:
 	rm -rf build
