@@ -1,4 +1,3 @@
-TESTS = $(shell find ./test -name '*.js')
 REPORTER = dot
 
 all: checkDeps clean build
@@ -11,10 +10,13 @@ clean:
 
 test:
 	@./node_modules/.bin/mocha \
-		$(TEST_WATCH) --reporter $(REPORTER) $(TESTS)
+		$(TEST_WATCH) --reporter $(REPORTER) test/suite.js
 
-test-watch:
-	$(MAKE) test REPORTER="min" TEST_WATCH="-G --watch"
+# Can't do test-watch because the require.js cache
+# needs to be cleared after a file has been modified like:
+# https://groups.google.com/group/requirejs/browse_thread/thread/8abddee5217779ad
+#test-watch:
+#	$(MAKE) test REPORTER="min" TEST_WATCH="-G --watch"
 
 test-spec:
 	$(MAKE) test REPORTER="spec"
