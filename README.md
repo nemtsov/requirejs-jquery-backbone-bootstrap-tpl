@@ -24,6 +24,16 @@ That will create a directory called **build/**. Open **build/main.html** in the 
 You'll see that it will only pull **4 files**. That is because the build-step combines 
 all CSS and JS into the fewest possible number of files.
 
+## Testing
+
+Do this once to get all of the testing dependencies:
+
+    npm install
+
+Run the following to test the project (testing is done via [Mocha](http://visionmedia.github.com/mocha/)):
+
+    make test
+
 
 ## More
 
