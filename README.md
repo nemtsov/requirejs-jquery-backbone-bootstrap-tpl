@@ -4,6 +4,8 @@ RequireJS, jQuery, Bootstrap and Backbone Project Template
 This is a simple project as that the RequireJS [optimization section](http://requirejs.org/docs/optimization.html) 
 describes.
 
+Take a look at the [end result here](http://georgecalm.github.com/requirejs-jquery-backbone-bootstrap-tpl/).
+
 
 ## Instructions
 
