@@ -30,7 +30,7 @@ Do this once to get all of the testing dependencies:
 
     npm install
 
-Run the following to test the project (testing is done via [Mocha](http://visionmedia.github.com/mocha/)):
+Run the following to test the project (testing is done via [Mocha](http://mochajs.org/)):
 
     make test
 
